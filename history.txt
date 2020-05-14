@@ -1,0 +1,35 @@
+
+  Id CommandLine
+  -- -----------
+   1 cd C:\users\kukun\
+   2 dir
+   3 cd .\Documents\
+   4 dir
+   5 explorer .
+   6 cd..
+   7 cd .\OneDrive\
+   8 dir
+   9 cd .\Documents\
+  10 dir
+  11 cd..
+  12 dir
+  13 mkdir github
+  14 cd .\github\
+  15 git remote add origin https://github.com/jthague/jhague.git
+  16 git remote add origin https://github.com/jthague/jhague.git
+  17 echo "# jhague" >> README.md
+  18 git init
+  19 git add .README.md
+  20 git add .\README.md
+  21 git commit -m "first commit"
+  22 git remote add origin https://github.com/jthague/jhague.git
+  23 git push -u origin master
+  24 dir
+  25 gc .\README.md
+  26 Show-Markdown .\README.md
+  27 @"…
+  28 @"…
+  29 @"…
+  30 help markdown
+  31 history
+
